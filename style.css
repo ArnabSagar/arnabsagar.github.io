@@ -1,1 +1,63 @@
-Making the css
+body{
+    background-color: rgb(80, 6, 6);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    overflow: auto;;
+
+}
+
+
+
+.transparent{
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-image: url(images/background-img.jpg);
+    background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+    
+}
+
+.solidhead{
+    background-color: black;
+}
+
+.navigate{
+    
+    /* align-content: flex-end; */
+    position: relative;
+    margin: 0px;
+    direction: rtl;
+    
+}
+
+.profilepicture{
+
+    margin: 50px 10px 10px 100px;
+}
+
+li{
+    padding: 40px 30px;
+    list-style: none;
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: right, end;
+    
+    transition: 0.4s;
+
+}
+
+li:hover{
+
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.form-style{
+
+    justify-content: center;
+    text-align: center;
+
+}
