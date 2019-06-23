@@ -31,12 +31,14 @@ body{
     
 }
 
-.profilepicture{
+.profilepicture img{
 
-    margin: 50px 10px 10px 100px;
-    position: relative;
-    justify-content: center;
-    text-align: center;
+    /* margin: 50px 10px 10px 100px; */
+    padding: 40px 0px;
+    display: block;
+    margin: 0 auto;
+    
+
 }
 
 li{
