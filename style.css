@@ -13,7 +13,7 @@ body{
     position: fixed; /* Sit on top of the page content */
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
-    background-image: url(images/background-img.jpg);
+    background-image: url(./images/background-img.jpg);
     background-color: rgba(0,0,0,0.4); /* Black background with opacity */
     
 }
@@ -34,6 +34,9 @@ body{
 .profilepicture{
 
     margin: 50px 10px 10px 100px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
 }
 
 li{
@@ -57,7 +60,7 @@ li:hover{
 
 .form-style{
 
-    justify-content: center;
     text-align: center;
+
 
 }
