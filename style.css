@@ -1,9 +1,10 @@
 body{
     background-color: rgb(80, 6, 6);
+    background-image: url(./images/background-img.jpg);
     color: white;
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
-    overflow: auto;;
+    overflow: auto;
 
 }
 
@@ -13,13 +14,13 @@ body{
     position: fixed; /* Sit on top of the page content */
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
-    background-image: url(./images/background-img.jpg);
+    
     background-color: rgba(0,0,0,0.4); /* Black background with opacity */
     
 }
 
 .solidhead{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .navigate{
