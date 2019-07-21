@@ -1,59 +1,37 @@
-/* body{
-
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url(./images/background-img.jpeg);
-    background-size: cover;
-    
-}
-
-h1{
-
-    color: white;
-
-}
-
-
-.floating_box{
-
-    background-color: rgb(248, 151, 24);
-    border: white 1px solid;
-    border-radius: 10px;
-    margin: 10% 20%;
-    justify-content: center;
-
-}
-
-img{
-    display: flex; 
-    justify-content: flex-end;
-    border-radius: 50%;
-} */
-
 html{
     margin: 0%;
 }
 
 body{
-    /* background-image: url(./images/background-img.jpeg); */
     background-image: url(./images/background-gif.gif);
     background-size: cover;
     background-color: black;
     font-family: 'Montserrat', sans-serif;
-    cursor: default; 
-    
+    cursor: default;     
     
 }
 
 
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 325px;
-    margin: auto;
-    margin-top: 2.5%;
-    text-align: center;
     background-color: white;    
     opacity: 0.95;
+    text-align: center;
+    border-radius: 5%;
+
+    width: 325px;
+    height: 600px;
+
+    position:absolute; 
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto; 
+
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+
+    
 }
 
 
@@ -71,8 +49,9 @@ button {
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
     font-size: 18px;
+    border-radius: 30px;
 }
 
 .button{
