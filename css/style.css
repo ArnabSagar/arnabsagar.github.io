@@ -12,11 +12,10 @@ body{
     height: 100vh;
     background-color: rgb(75, 21, 24);
     animation: bgColor 20s infinite linear;
-    /*  */
 }
 
 #particles-js{
-    height: 99%;
+    height: 99vh;
     background: rgb(75, 21, 24);
     animation: bgColor 20s infinite linear;
 }
@@ -93,9 +92,7 @@ button {
 }
 
 .button{
-
     margin-bottom: 0%;
-
 }
 
 a {
