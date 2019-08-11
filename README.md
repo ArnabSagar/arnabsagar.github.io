@@ -1,3 +1,2 @@
-# arnabsagar.github.io
-Sentence for the second commit
-Sentence for the second commit(1)
+This is my profile page.
+Made using HTML, CSS and Javascript
