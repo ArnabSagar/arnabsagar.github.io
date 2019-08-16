@@ -57,7 +57,7 @@ body{
     border-radius: 2%;
 
     width: 325px;
-    height: 600px;
+    height: 575px;
 
     position:absolute; 
     left:0; right:0;
@@ -113,6 +113,10 @@ body{
 .title {
     color: grey;
     font-size: 18px;
+}
+
+h1{
+    margin: 10px 0px 3px 0px;
 }
 
 button {
